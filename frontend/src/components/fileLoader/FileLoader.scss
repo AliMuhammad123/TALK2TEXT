@@ -1,0 +1,244 @@
+/* Style for the container that centers the file selector */
+.file-selector-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: fit-content;
+    background-color: #f0f0f0; /* Background color for the entire page */
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the file selector box */
+  .file-selector-box {
+    border: 2px solid #333; /* Border around the box */
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff; /* Background color for the box */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Box shadow for a subtle depth effect */
+    text-align: center;
+    max-width: 400px; /* Set the maximum width of the box */
+  }
+  
+  /* Style for the "Clear" button */
+  .file-selector-box button {
+    background-color: #d9534f; /* Red background color for the button */
+    color: #fff; /* Text color for the button */
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .file-selector-box button:hover {
+    background-color: #c9302c; /* Darker red on hover */
+  }
+
+  .file-input-container {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  /* Style for the actual file input field */
+  .file-input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+  }
+
+  .file-choose-button {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Padding for the button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .file-choose-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Style for the selected file display */
+  .selected-file {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+
+  /* Style for the file input container */
+.file-input-container {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  /* Style for the actual file input field */
+  .file-input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+  }
+  
+  /* Style for the file choosing button */
+  .file-choose-button {
+    margin-top: 5px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding: 6px 8px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+    padding: 8px 10px;
+    width: 100%;
+    font-size: medium;
+
+
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Padding for the button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .file-choose-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Style for the selected file display */
+  .selected-file {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .output{
+    margin-top: 2px;
+  }
+
+  .language-selector {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    background-color: #270101;
+    padding: 20px;
+    border: 2px solid #270101;
+    border-radius: 5px;
+  }
+  
+  .language-option {
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    align-items: center;
+    border: 1px solid #ccc;
+    background-color: #e8c1c1;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .language-option:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .selected {
+    background-color: #3498db;
+    color: #fff;
+    border: 1px solid #3498db;
+  }
+  
+  .topic{
+    color: white;
+  }
+
+  .line{
+    margin-bottom: 5px;
+  }
+  
+  .head2{
+    margin-top: 10px;
+  }
+
+  .summary_topic {
+    text-align: center; /* Center text horizontally */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center text vertically */
+    border: 2px solid red; /* Red outlined box */
+    padding: 20px; /* Add some padding for spacing */
+    margin-bottom: 20px;
+  }
+  
+  /* Optional: Style the headings and paragraphs within .summary_topic */
+  .summary_topic h3 {
+    font-size: 24px;
+  }
+  
+  .summary_topic p {
+    font-size: 16px;
+    margin-top: 10px; /* Add some margin between the heading and paragraph */
+  }
+  
+  .summary_topic_2 {
+    text-align: center; /* Center text horizontally */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center text vertically */
+    border: 2px solid rgb(21, 0, 255); /* Red outlined box */
+    padding: 20px; /* Add some padding for spacing */
+    margin-bottom: 20px;
+  }
+  
+  /* Optional: Style the headings and paragraphs within .summary_topic */
+  .summary_topic_2 h3 {
+    font-size: 24px;
+  }
+  
+  .summary_topic_2 p {
+    font-size: 16px;
+    margin-top: 10px; /* Add some margin between the heading and paragraph */
+  }
+
+  .lan-choice {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-top: 50px;
+  }
+  
+  .head {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+  }
+
+  .t1 {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .t2 {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+  }
